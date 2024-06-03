@@ -1,0 +1,111 @@
+body {
+    background-color: #1B6D85;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#board {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.list {
+    background-color: #264653;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap !important;
+}
+
+.list header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: gray;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .delete-icon {
+    color: #337ab7;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.addListButton {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.addCardButton {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.deleteCardButton{
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.cards {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputContainer input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 30px;
+}
+
